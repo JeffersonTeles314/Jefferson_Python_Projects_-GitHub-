@@ -1,0 +1,11 @@
+t1=str(input('digite algo para receber informações'))
+print(type(t1))
+print('é numerico?: ',t1.isnumeric())
+print('é alfabético?: ',t1.isalpha())
+print('é alfanúmerico?: ',t1.isalnum())
+print('só tem maiscula?: ',t1.isupper())
+print('é decimal?: ',t1.isdecimal())
+print('só tem espaços?: ',t1.isspace())
+print('só tem minusculas?: ',t1.islower())
+print('está capitalizada?: ',t1.istitle())
+
